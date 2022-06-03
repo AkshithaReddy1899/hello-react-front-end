@@ -2,8 +2,8 @@ const GET_GREETING = 'greeting/GET_GREETING';
 
 export const fetchGreetingFromApi = () => async (dispatch) => {
   const response = await fetch('http://localhost:3000/v1/greetings', {
-    method: 'GET'
-  })
+    method: 'GET',
+  });
   const greeting = await response.json();
 
   if (response.ok) {

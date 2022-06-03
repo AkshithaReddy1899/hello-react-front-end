@@ -4,7 +4,7 @@ import { fetchGreetingFromApi } from '../redux/greeting';
 
 const Greeting = () => {
   const dispatch = useDispatch();
-  const greeting = useSelector(state => state.greeting);
+  const greeting = useSelector((state) => state.greeting);
 
   const handleClick = () => {
     dispatch(fetchGreetingFromApi());
@@ -15,8 +15,6 @@ const Greeting = () => {
       <h1>Greeting!</h1>
       <b>{greeting.message}</b>
       <br />
-			<br />
-			<br />
       <button type="button" onClick={handleClick}>Generate greeting</button>
     </>
   );

@@ -18,10 +18,20 @@ This repo has the code to the front-end part of the hello-rails-react app
 
 ## Getting started
 
-1. Clone the project `git clone https://github.com/AkshithaReddy1899/hello-react-front-end`
+
+### Back-end-repo
+
+1. Clone the project `git clone https://github.com/AkshithaReddy1899/hello-rails-back-end`
 2. Installing the dependencies by running `bundle install`
 3. Create database by running `rails db:create`
 4. Run migrations `rails db:migrate`
+5. Start the server `rails s`
+
+### Front-end-repo
+
+1. Clone the project `git clone https://github.com/AkshithaReddy1899/hello-react-front-end`
+2. Install the dependencies `npm install`
+3. Run the app `npm start`
 
 ### Prerequisites
 
